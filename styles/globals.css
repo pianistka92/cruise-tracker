@@ -1,0 +1,8 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #090D18; color: #E8EDF5; font-family: Georgia, 'Times New Roman', serif; }
+select option { background: #0B1826; color: #E8EDF5; }
+input::placeholder { color: #3A6A8A; }
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-thumb { background: rgba(100,200,255,0.18); border-radius: 3px; }
+@keyframes spin { from { transform: rotate(0deg) } to { transform: rotate(360deg) } }
+@keyframes fadeUp { from { opacity:0; transform:translateY(13px) } to { opacity:1; transform:translateY(0) } }
